@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "patchName": "Overlay buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "Thin"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations",
+    "options": [
+      {
+        "key": "SelectedLanguages",
+        "value": "ja-rJP"
+      },
+      {
+        "key": "SelectedAppLanguages",
+        "value": "ja"
+      }
+    ]
+  },
+  {
+    "patchName": "Shorts overlay buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "Outline"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations",
+    "options": [
+      {
+        "key": "SelectedLanguages",
+        "value": "ja-rJP"
+      },
+      {
+        "key": "SelectedAppLanguages",
+        "value": "ja"
+      }
+    ]
+  }
+]
