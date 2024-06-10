@@ -1,4 +1,14 @@
+        
 [
+  {
+    "patchName": "Custom Shorts action buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "Outline"
+      }
+    ]
+  },
   {
     "patchName": "Overlay buttons",
     "options": [
@@ -9,38 +19,30 @@
     ]
   },
   {
-    "patchName": "Translations",
+    "patchName": "Translations YouTube",
     "options": [
       {
-        "key": "SelectedLanguages",
-        "value": "ja-rJP"
-      },
-      {
-        "key": "SelectedAppLanguages",
+        "key": "SelectedStringResources",
         "value": "ja"
+      },
+      {
+        "key": "SelectedTranslations",
+        "value": "ja-rJP"
       }
     ]
   },
   {
-    "patchName": "Shorts overlay buttons",
+    "patchName": "Translations YouTube Music",
     "options": [
       {
-        "key": "IconType",
-        "value": "Outline"
-      }
-    ]
-  },
-  {
-    "patchName": "Translations",
-    "options": [
-      {
-        "key": "SelectedLanguages",
+        "key": "SelectedTranslations",
         "value": "ja-rJP"
       },
       {
-        "key": "SelectedAppLanguages",
+        "key": "SelectedStringResources",
         "value": "ja"
       }
     ]
   }
 ]
+        
