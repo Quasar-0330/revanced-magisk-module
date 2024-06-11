@@ -32,12 +32,12 @@ excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube
 #included-patches = "'Hide double tap overlay filter' 'Hide overlay filter' 'Hide player overlay filter'"
 #excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music' 'Custom package name'"
 
-#[X]
-#apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
-#patches-source = "crimera/piko"
-#integrations-source = "crimera/revanced-integrations"
-#patches-version = "v1.31.0-dev.4"
-#integrations-version = "v1.20.0-dev.3"
-#rv-brand = "crimera ReVanced"
-#build-mode = "module"
-#included-patches = "'Hide FAB' 'Customize Navigation Bar items' 'Delete from database' 'Force enable translate' 'Hide promote button' 'Hide Community Notes' 'Hide Banner' 'Hide Live Threads' 'Add ability to copy media link' 'Disable chirp font'"
+[X]
+apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
+patches-source = "crimera/piko"
+integrations-source = "crimera/revanced-integrations"
+patches-version = "v1.31.0"
+integrations-version = "v1.20.0"
+rv-brand = "crimera ReVanced"
+build-mode = "module"
+included-patches = "'Hide FAB' 'Customize Navigation Bar items' 'Delete from database' 'Force enable translate' 'Hide promote button' 'Hide Community Notes' 'Hide Banner' 'Hide Live Threads' 'Add ability to copy media link' 'Disable chirp font'"
