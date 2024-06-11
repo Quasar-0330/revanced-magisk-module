@@ -19,10 +19,6 @@
     ]
   },
   {
-    "Name": "Restore old seekbar thumbnails",
-    "use": "false"
-  },
-  {
     "patchName": "Translations YouTube",
     "options": [
       {
