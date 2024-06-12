@@ -1,4 +1,3 @@
-      
 [
   {
     "patchName": "Custom Shorts action buttons",
@@ -19,28 +18,28 @@
     ]
   },
   {
-    "patchName": "Translations YouTube",
+    "patchName": "Translations for YouTube",
     "options": [
-      {
-        "key": "SelectedStringResources",
-        "value": "ja"
-      },
       {
         "key": "SelectedTranslations",
         "value": "ja-rJP"
+      },
+      {
+        "key": "SelectedStringResources",
+        "value": "ja"
       }
     ]
   },
   {
-    "patchName": "Translations YouTube Music",
+    "patchName": "Translations for YouTube Music",
     "options": [
-      {
-        "key": "SelectedTranslations",
-        "value": "ja-rJP"
-      },
       {
         "key": "SelectedStringResources",
         "value": "ja"
+      },
+      {
+        "key": "SelectedTranslations",
+        "value": "ja-rJP"
       }
     ]
   }
