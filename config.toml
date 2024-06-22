@@ -43,7 +43,7 @@ integrations-version = "v0.153.0-dev.8"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "anddea ReVanced"
 build-mode = "module"
-version = "19.21.35"
+version = "19.16.39"
 included-patches = "'Force custom branding wordmark header' 'Force hide player buttons background' 'Hide Shorts dimming' 'Hide animated button background' 'Hide double tap to like animations' 'MaterialYou'"
 excluded-patches = "'Custom package name' 'Theme'"
 
