@@ -5,32 +5,61 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-patches-version = "v4.9.2-dev.1"
-integrations-version = "v1.10.2-dev.1"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "inotia00 ReVanced"
-build-mode = "module"
-version = "19.16.39"
-included-patches = "'Custom header for YouTube' 'Force hide player buttons background' 'Hide Shorts dimming' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide double tap to like animations' 'MaterialYou' 'Visual preferences icons'"
-excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom package name' 'Theme'"
+#inotia00
+#[inotia00-YouTube]
+#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+#patches-source = "inotia00/revanced-patches"
+#integrations-source = "inotia00/revanced-integrations"
+#patches-version = "v4.9.2-dev.1"
+#integrations-version = "v1.10.2-dev.1"
+#cli-source = "inotia00/revanced-cli"
+#rv-brand = "inotia00 ReVanced"
+#build-mode = "module"
+#version = "19.16.39"
+#included-patches = "'Custom header for YouTube' 'Force hide player buttons background' 'Hide Shorts dimming' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide double tap to like animations' 'MaterialYou' 'Visual preferences icons'"
+#excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom package name' 'Theme'"
 
-[Music]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-patches-version = "v4.9.2-dev.1"
-integrations-version = "v1.10.2-dev.1"
+#[inotia00-Music]
+#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+#patches-source = "inotia00/revanced-patches"
+#integrations-source = "inotia00/revanced-integrations"
+#patches-version = "v4.9.2-dev.1"
+#integrations-version = "v1.10.2-dev.1"
+#cli-source = "inotia00/revanced-cli"
+#rv-brand = "inotia00 ReVanced"
+#arch = "arm64-v8a"
+#build-mode = "module"
+#version = "7.05.53"
+#included-patches = "'Hide double tap overlay filter' 'Hide overlay filter' 'Hide player overlay filter'"
+#excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom package name'"
+
+#anddea
+[anddea-YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+patches-version = "v2.226.0-dev.16"
+integrations-version = "v0.153.0-dev.8"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "inotia00 ReVanced"
+rv-brand = "anddea ReVanced"
+build-mode = "module"
+version = "19.21.40"
+included-patches = "'Force custom branding wordmark header' 'Force hide player buttons background' 'Hide Shorts dimming' 'Hide animated button background' 'Hide double tap to like animations' 'MaterialYou'"
+excluded-patches = "'Custom package name' 'Theme'"
+
+[anddea-Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+patches-version = "v2.226.0-dev.16"
+integrations-version = "v0.153.0-dev.8"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "anddea ReVanced"
 arch = "arm64-v8a"
 build-mode = "module"
 version = "7.05.53"
-included-patches = "'Hide double tap overlay filter' 'Hide overlay filter' 'Hide player overlay filter'"
-excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom package name'"
+included-patches = "'Hide overlay filter' 'Hide player overlay filter'"
+excluded-patches = "'Custom package name'"
 
 #[X]
 #apkmirror-dlurl = "https://apkmirror.com/apk/x-corp/twitter/"
