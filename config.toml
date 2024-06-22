@@ -8,6 +8,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 #inotia00
 #[YouTube]
 #apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 #patches-source = "inotia00/revanced-patches"
 #integrations-source = "inotia00/revanced-integrations"
 #patches-version = "v4.9.2-dev.1"
@@ -21,6 +22,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 #[Music]
 #apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 #patches-source = "inotia00/revanced-patches"
 #integrations-source = "inotia00/revanced-integrations"
 #patches-version = "v4.9.2-dev.1"
@@ -36,6 +38,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 #anddea
 [YouTube]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 patches-version = "v2.226.0-dev.16"
@@ -49,6 +52,7 @@ excluded-patches = "'Custom package name' 'Theme'"
 
 [Music]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 patches-version = "v2.226.0-dev.16"
@@ -57,7 +61,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "anddea ReVanced"
 arch = "arm64-v8a"
 build-mode = "module"
-version = "7.05.53"
+version = "7.05.52"
 included-patches = "'Hide overlay filter' 'Hide player overlay filter'"
 excluded-patches = "'Custom package name'"
 
