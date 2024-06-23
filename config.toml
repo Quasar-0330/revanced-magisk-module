@@ -14,7 +14,7 @@ integrations-version = "v1.10.2-dev.2"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "inotia00 ReVanced"
 build-mode = "module"
-version = "19.23.40"
+version = "19.16.39"
 included-patches = "'Custom header for YouTube' 'Force hide player buttons background' 'Hide Shorts dimming' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide double tap to like animations' 'MaterialYou' 'Visual preferences icons'"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom package name' 'Theme'"
 
