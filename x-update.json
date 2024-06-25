@@ -1,6 +1,6 @@
 {
-  "version": "v10.45.0-release.0",
-  "versionCode": 6,
-  "zipUrl": "https://github.com/Quasar-0330/revanced-magisk-module/releases/download/6/x-crimera-revanced-magisk-v10.45.0-release.0-all.zip",
+  "version": "v10.47.0-release.0",
+  "versionCode": 15,
+  "zipUrl": "https://github.com/Quasar-0330/revanced-magisk-module/releases/download/15/x-crimera-revanced-magisk-v10.47.0-release.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/Quasar-0330/revanced-magisk-module/update/build.md"
 }
