@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "patchName": "Custom Shorts action buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "Outline"
+      }
+    ]
+  },
+  {
+    "patchName": "Overlay buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "Thin"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations for YouTube",
+    "options": [
+      {
+        "key": "SelectedTranslations",
+        "value": "ja-rJP"
+      },
+      {
+        "key": "SelectedStringResources",
+        "value": "ja"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations for YouTube Music",
+    "options": [
+      {
+        "key": "SelectedTranslations",
+        "value": "ja-rJP"
+      },
+      {
+        "key": "SelectedStringResources",
+        "value": "ja"
+      }
+    ]
+  }
+]
