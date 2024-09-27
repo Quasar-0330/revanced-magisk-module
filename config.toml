@@ -14,15 +14,14 @@ included-patches = "'Custom header for YouTube' 'Force hide player buttons backg
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
 
 [Music]
-#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "inotia00 ReVanced"
 arch = "arm64-v8a"
 build-mode = "module"
-version = "7.16.53"
+version = "7.16.52"
 patches-version = "v4.14.1-dev.3"
 integrations-version = "v1.14.1-dev.3"
 included-patches = "'Hide overlay filter' 'Hide player overlay filter'"
