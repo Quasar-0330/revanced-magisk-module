@@ -28,12 +28,11 @@ enable-magisk-update = true
 #excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
 [X]
-#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/twitter-10-60-0-release-0-release/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
 rv-brand = "piko ReVanced"
-build-mode = "module"
+build-mode = "apk"
 version = "latest"
 patches-version = "v1.41.0-dev.1"
 integrations-version = "v1.30.0-dev.1"
