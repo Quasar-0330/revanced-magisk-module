@@ -12,7 +12,7 @@ build-mode = "module"
 version = "19.16.39"
 included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'Hide shortcuts' 'MaterialYou' 'Return YouTube Username'"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
-patcher-args = "'Shorts icon style' -OiconType=outline 'Icon type' -OiconType=thin -OselectedTranslations=ja-rJP -OselectedStringResources=ja"
+patcher-args = "-e 'Custom Shorts action buttons' -OiconType=outline -Oexplore=true -Osubscriptions=true -Osearch=true -OselectedTranslations=ja-rJP -OselectedStringResources=ja -e 'Overlay buttons' -OiconType=thin -OoutlineIcon=true"
 
 #[Music-Extended]
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
