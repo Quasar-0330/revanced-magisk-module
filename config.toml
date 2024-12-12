@@ -4,20 +4,21 @@ patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "inotia00 ReVanced"
 patches-version = "dev"
+remove-rv-integrations-checks = true
 
 [YouTube-Extended]
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-build-mode = "apk"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+build-mode = "both"
 version = "19.16.39"
 included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'Hide shortcuts' 'MaterialYou' 'Return YouTube Username'"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
-patcher-args = "-e 'Custom Shorts action buttons' -OiconType=outline -Oexplore=true -Osubscriptions=true -Osearch=true -OselectedTranslations=ja-rJP -OselectedStringResources=ja -e 'Overlay buttons' -OiconType=thin -OoutlineIcon=true"
+patcher-args = "-e 'Custom Shorts action buttons' -OiconType=outline -e 'Hide shortcuts' -Oexplore=true -Osubscriptions=true -Osearch=true -e 'Translations for YouTube' -OselectedTranslations=ja-rJP -OselectedStringResources=ja -e 'Overlay buttons' -OiconType=thin -e 'SponsorBlock' -OoutlineIcon=true"
 
 [Music-Extended]
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "arm64-v8a"
-build-mode = "apk"
+build-mode = "both"
 version = "7.16.53"
 included-patches = "'Hide overlay filter' 'Hide player overlay filter' 'Return YouTube Username'"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
-patcher-args = "-OselectedTranslations=ja-rJP -OselectedStringResources=ja"
+patcher-args = "-e 'Translations for YouTube Music' -OselectedTranslations=ja-rJP -OselectedStringResources=ja"
