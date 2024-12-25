@@ -12,7 +12,11 @@ build-mode = "module"
 version = "19.16.39"
 included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'Hide shortcuts' 'MaterialYou' 'Return YouTube Username'"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
-patcher-args = "-OiconType=outline -Oexplore=true -Osubscriptions=true -Osearch=true -Oshorts=true -OiconType=thin -OoutlineIcon=true -OselectedTranslations=ja-rJP -OselectedStringResources=ja "
+patcher-args = "-e 'Custom Shorts action buttons' -OiconType=outline \
+                -e 'Hide shortcuts' -Oexplore=true -Osubscriptions=true -Osearch=true -Oshorts=true \
+                -e 'Overlay buttons' -OiconType=thin \
+                -e 'SponsorBlock' -OoutlineIcon=true \
+                -e 'Translations for YouTube' -OselectedTranslations=ja-rJP -OselectedStringResources=ja "
 
 [Music-Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
@@ -21,4 +25,4 @@ build-mode = "module"
 version = "7.16.53"
 included-patches = "'Hide overlay filter' 'Hide player overlay filter' 'Return YouTube Username' 'Spoof client'"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
-patcher-args = "-OselectedTranslations=ja-rJP -OselectedStringResources=ja "
+patcher-args = "-e 'Translations for YouTube Music' -OselectedTranslations=ja-rJP -OselectedStringResources=ja "
