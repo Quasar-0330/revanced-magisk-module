@@ -1,6 +1,6 @@
 {
-  "version": "v19.16.39 (3)",
-  "versionCode": 3,
-  "zipUrl": "https://github.com/Quasar-0330/revanced-magisk-module/releases/download/3/youtube-extended-inotia00-revanced-magisk-v19.16.39-all.zip",
+  "version": "v19.16.39 (patches: dev.1)",
+  "versionCode": 4,
+  "zipUrl": "https://github.com/Quasar-0330/revanced-magisk-module/releases/download/4/youtube-extended-inotia00-revanced-magisk-v19.16.39-all.zip",
   "changelog": "https://raw.githubusercontent.com/Quasar-0330/revanced-magisk-module/update/build.md"
 }
