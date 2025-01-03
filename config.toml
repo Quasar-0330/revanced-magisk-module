@@ -7,7 +7,8 @@ rv-brand = "inotia00 ReVanced"
 patches-version = "dev"
 
 [YouTube-Extended]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 build-mode = "module"
 version = "19.16.39"
 included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'Hide shortcuts' 'MaterialYou' 'Return YouTube Username'"
