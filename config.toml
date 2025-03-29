@@ -8,8 +8,8 @@ patches-version = "dev"
 
 [YouTube]
 build-mode = "module"
-version = "19.47.53"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 included-patches = "'Disable resuming Shorts on startup' 'Force hide player buttons background' 'Fullscreen components' 'Hide action buttons' 'Hide ads' 'Hide comments components' 'Hide feed components' 'Hide layout components' 'Hide player buttons' 'MaterialYou' 'Miniplayer' 'Navigation bar components' 'Open links externally' 'Overlay buttons' 'Player components' 'Remove background playback restrictions' 'Remove viewer discretion dialog' 'Seekbar components' 'Settings for YouTube' 'Shorts components' 'Spoof streaming data' 'Swipe controls' 'Toolbar components' 'Translations for YouTube' 'Video playback' 'Visual preferences icons for YouTube'"
 exclusive-patches = true
 patcher-args = "-e 'Overlay buttons' -OchangeTopButtons=true -e 'Translations for YouTube' -OselectedTranslations=ja-rJP -OselectedStringResources=ja "
